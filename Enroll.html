@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Form</title>
+    <link rel="stylesheet" href="Enroll.css">
+</head>
+<body>
+
+    <div class="enrollment-form-container">
+        <h1>Course Enrollment Form</h1>
+        <form action="/enroll" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="contact">Contact No:</label>
+                <input type="number" id="contact" name="contact" required>
+            </div>
+
+            <div class="form-group">
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" required>
+                    <option value="" disabled selected>Select a course</option>
+                    <option value="frontend">Web Development</option>
+                    <option value="backend">JavaScript</option>
+                    <option value="fullstack">Java</option>
+                    <option value="data-science">React-JS</option>
+                    <option value="ai-ml">Programming</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+            
+            <button id="enroll" type="submit">Enroll Now</button>
+        </form>
+    </div>
+
+    <script src="Enroll.js"></script>
+</body>
+</html>
