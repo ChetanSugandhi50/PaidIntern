@@ -10,6 +10,7 @@ Features
 - User Enrollment : Simple and secure course enrollment process.
 
 Technologies Used
-Frontend: HTML, CSS, JavaScript
-Backend: Node, Express
-MERN Stack Developer
+
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node, Express
+- MERN Stack Developer
